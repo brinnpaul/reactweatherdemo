@@ -22,10 +22,10 @@ let Weather = React.createClass({
         isLoading: false
       })
     })
-    .catch(function(errMsg) {
-      alert(errMsg);
-      self.setState({isLoading:false});
-    })
+    // .catch(function(errMsg) {
+    //   alert(errMsg);
+    //   self.setState({isLoading:false});
+    // })
 
   },
   render: function() {
