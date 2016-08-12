@@ -16,6 +16,7 @@ let ErrorModal = React.createClass({
   },
   render: function() {
     let {title, message} = this.props;
+    console.log(this.props)
 
     return (
       <div id="error-modal" className="reveal tiny text-center" data-reveal="">
